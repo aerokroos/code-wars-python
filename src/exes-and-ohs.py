@@ -10,7 +10,6 @@
 # XO("zpzpzpp") => true // when no 'x' and 'o' is present should return true
 # XO("zzoo") => false
 
-# split woord to characters
 def xo(string):
     x_arr = []
     o_arr = []
@@ -31,3 +30,7 @@ def xo(string):
         return match
     else:
         return match
+    
+print(xo("xoxo"))
+print(xo("xo0"))
+print(xo("xxxoo"))
